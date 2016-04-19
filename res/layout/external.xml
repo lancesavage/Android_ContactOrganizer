@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+      <LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+  	  >
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:text="Last"
+   			android:id="@+id/tvLNameE"
+   			android:layout_margin="10dp"
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:text="First"
+   			android:id="@+id/tvFNameE"
+   			android:visibility="invisible"
+   			android:layout_margin="10dp"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:text="Company"
+   			android:id="@+id/tvCompany"
+   			android:layout_margin="10dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:text="Phone Number"
+   			android:id="@+id/tvPhone"
+      		android:visibility="invisible"
+      		android:layout_margin="10dp"
+   		/>
+ 
+   	</LinearLayout>
+
+	<LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+  	>
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvLNameEA"
+   			android:layout_margin="25dp"
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvFNameEA"
+   			android:visibility="invisible"
+   			android:layout_margin="25dp"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvCompanyA"
+   			android:layout_margin="25dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvPhoneA"
+      		android:visibility="invisible"
+      		android:layout_margin="25dp"
+   		/>
+ 
+   	</LinearLayout>
+   	
+   	<LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+  	>
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvLNameEB"
+   			android:layout_margin="25dp"
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvFNameEB"
+   			android:visibility="invisible"
+   			android:layout_margin="25dp"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvCompanyB"
+   			android:layout_margin="25dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvPhoneB"
+      		android:visibility="invisible"
+      		android:layout_margin="25dp"
+   		/>
+ 
+   	</LinearLayout>
+   	
+   	<LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+  	>
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvLNameEC"
+   			android:layout_margin="25dp"
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvFNameEC"
+   			android:visibility="invisible"
+   			android:layout_margin="25dp"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvCompanyC"
+   			android:layout_margin="25dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvPhoneC"
+      		android:visibility="invisible"
+      		android:layout_margin="25dp"
+   		/>
+ 
+   	</LinearLayout>
+   	
+   	<LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+   		
+  	>
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvLNameED"
+   			android:layout_margin="25dp"
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+      		android:id="@+id/tvFNameED"
+    		android:layout_margin="25dp"
+   			android:visibility="invisible"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvCompanyD"
+   			android:layout_margin="25dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvPhoneD"
+   			android:visibility="invisible"
+   			android:layout_margin="25dp"
+   		/>
+ 
+   	</LinearLayout>
+   	
+   	<LinearLayout	
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_gravity="fill_horizontal"
+  	>
+  		
+    	<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvLNameEE" 
+   			android:layout_margin="25dp"  
+    	/>
+		
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+   			android:id="@+id/tvFNameEE"
+   			android:visibility="invisible"
+   			android:layout_margin="25dp"
+    	/>
+    	    	
+    	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvCompanyE"
+   			android:layout_margin="25dp"
+   		/>
+     	
+     	<TextView  
+   			android:layout_width="fill_parent" 
+   			android:layout_height="wrap_content" 
+   			android:id="@+id/tvPhoneE"
+   			android:layout_margin="25dp"
+      		android:visibility="invisible"
+   			
+   		/>
+ 
+   	</LinearLayout>
+ 
+   	
+   <Button
+   		android:id="@+id/btnDetails"
+   		android:layout_width="wrap_content"
+   		android:layout_height="60dp"
+   		android:text="Show Details"
+   		android:layout_margin="10dp"
+   	
+   	/>
+   
+   </LinearLayout>
